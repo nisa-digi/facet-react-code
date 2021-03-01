@@ -1,0 +1,162 @@
+.App {
+  text-align: left;
+  margin-left: 2em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.PrivateTabIndicator-colorSecondary-7{
+  background-color: #fff;
+}
+
+.title{
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+background-image: url('https://online-shipping-blog.endicia.com/wp-content/uploads/2017/04/Analytics-Illustration-618x412.jpg');
+  /* background-image: url('https://img.freepik.com/free-vector/concept-data-analysis-visualize-with-graph-chart-marketing-growth-illustration_71983-1252.jpg?size=626&ext=jpg&ga=GA1.2.1447447381.1612517232'); */
+  height: 250px;
+}
+
+.MuiGrid-spacing-xs-7{
+width: 100% !important;
+margin: 0 !important;
+}
+
+/* For mobile : like samsung grand(480 * 800): */
+@media screen and (max-width : 480px){
+  .makeStyles-tab_header-3{
+    width: 33% !important;
+    font-size: 13px !important;
+  }
+  .MuiBox-root-19{
+    padding: 0 !important;
+    margin-top: 20px;
+  }
+  #uploadGroup{
+    display: inline-grid;
+  }
+
+  #buttonGroup{
+    margin-left: 0 !important;
+    margin: 8px 0 !important;
+  }
+}
+
+
+/* For iphone: */
+@media screen and (max-width : 320px){
+  .makeStyles-tab_header-3{
+    width: 33% !important;
+    font-size: 13px !important;
+  }
+  .MuiBox-root-19{
+    padding: 0 !important;
+    margin-top: 20px;
+  }
+} 
+
+
+/* For ipad: */
+@media screen and (max-width : 991px){
+  .makeStyles-tab_header-3{
+    width: 32% !important;
+    font-size: 12px !important;
+    overflow: visible !important;
+  }
+  .MuiBox-root-19{
+    padding: 0 !important;
+    margin-top: 20px;
+  }
+  .tableTitle{
+    width: 193px !important;
+    }
+} 
+
+.table_container {
+  overflow-x: auto;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-y: scroll;
+ max-height: 500px;
+}
+
+
+th {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.MuiTableCell-root{
+padding: 10px !important;
+}
+
+
+.MuiPaper-elevation1{
+  box-shadow: none !important;
+}
+
+.uploadGroup{
+  display: inline-grid;
+}
+
+.MuiBox-root-26{
+  margin: 0 !important;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: unset !important;
+  height: unset !important;
+  display: flex;
+  justify-content: center;
+}
+
+.lds-ellipsis div {
+  top: unset !important;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgb(250, 183, 90);
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  margin: 0 5px;
+}
+
+.tableTitle{
+width: 180px;
+}

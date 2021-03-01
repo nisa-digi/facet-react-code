@@ -1,0 +1,117 @@
+{
+    "numericConfig": {
+        "title": "Numeric Features",
+        "columns": [
+            {
+                "key": "num_examples",
+                "displayName": "count"
+            },
+            {
+                "key": "mean",
+                "displayName": "mean"
+            },
+            {
+                "key": "std_dev",
+                "displayName": "std dev"
+            },
+            {
+                "key": "min",
+                "displayName": "min"
+            },
+            {
+                "key": "median",
+                "displayName": "median"
+            },
+            {
+                "key": "max",
+                "displayName": "max"
+            }
+        ],
+        "graphConfig": [
+            {
+                "moduleType": "nivo",
+                "chartType": "Standard",
+                "style": {
+                    "trainColor": "#E3C514",
+                    "testColor": "#1B83CC"
+                }
+            },
+            {
+                "moduleType": "nivo",
+                "chartType": "Quantiles",
+                "style": {
+                    "trainColor": "#E3C514",
+                    "testColor": "#1B83CC"
+                }
+            }
+        ],
+        "radios": [
+            "percentages",
+            "expand"
+        ]
+    },
+    "stringConfig": {
+        "title": "Categorical Features",
+        "columns": [
+            {
+                "key": "num_examples",
+                "displayName": "count"
+            },
+            {
+                "key": "num_non_missing",
+                "displayName": "missing"
+            },
+            {
+                "key": "unique",
+                "displayName": "unique"
+            },
+            {
+                "key": "value",
+                "displayName": "top"
+            },
+            {
+                "key": "frequency",
+                "displayName": "freq top"
+            },
+            {
+                "key": "avg_length",
+                "displayName": "avg str len"
+            }
+        ],
+        "graphConfig": [
+            {
+                "moduleType": "nivo",
+                "chartType": "Standard",
+                "style": {
+                    "trainColor": "#E3C514",
+                    "testColor": "#1B83CC"
+                }
+            }
+        ],
+        "radios": [
+            "percentages",
+            "expand"
+        ]
+    },
+    "booleanConfig": {
+        "title": "Numeric Features",
+        "columns": [
+            "count",
+            "missing",
+            "mean",
+            "std dev",
+            "zeros",
+            "min",
+            "median",
+            "max"
+        ],
+        "graphConfig": [
+            "standard",
+            "quantile"
+        ],
+        "radios": [
+            "percentages",
+            "expand"
+        ]
+    }
+}
